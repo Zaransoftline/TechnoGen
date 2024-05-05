@@ -1,3 +1,29 @@
+:root {
+    /* COLORS */
+
+    --primary: #9B1EDE;
+    --darkblack: #242423;
+    --lightblack: #333533;
+    --white: #fff;
+    --gray: #CFDBD5;
+
+    /* FONTS */
+
+    --header-font-size: 40px;
+    --link-font-size: 20px;
+    --sub-font-size: 18px;
+
+    --font-family: "Teachers", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
+    background-color: var(--white);
+    color: var(--lightblack);
+    font-family: var(--font-family);
+    font-size: var(--header-font-size);
 }
